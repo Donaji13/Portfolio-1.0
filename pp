@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>About me</title>
-</head>
-<body>
-<nav>
-  <ul>
-    <li>
-      <a href="file:///C:/Users/Student/Desktop/Portfolio%201.0/index.html">Home</a>
-    </li>
-    <li>
-      <a href="file:///C:/Users/Student/Desktop/Portfolio%201.0/page2.html">About Me</a>
-    </li>
-    <li>
-      <a href="file:///C:/Users/Student/Desktop/Portfolio%201.0/page3.html">Projects</a>
-    </li>
-  </ul>
-</nav>
 <center><h1>Projects</h1></center>
 
 <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
@@ -50,6 +31,3 @@ div {
     border-radius: 25px;
     }
 </style>
-
-</body>
-</html>
