@@ -52,11 +52,6 @@ body {
 	background-image: teal;
 }
 @import url(http://fonts.googleapis.com/css?family=Cantarell:400,700italic);
-
-body {
-  background: cyan;
-}
-
 h1 {
   color: white;
   font-family: 'Courgette', cursive;
@@ -112,10 +107,9 @@ h1 {
 
 
 @media screen and (max-width:959px){
-  #container{
-    width: 100%;
+ #title{
+  width: 100%;
+
   }
-  #left-column{
-    width:70%;
-  }
+
 }
