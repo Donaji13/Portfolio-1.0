@@ -1,3 +1,9 @@
+#pic1{
+  margin: 0px auto;
+}
+
+
+
 body{
   background-color: black;
 }
@@ -51,47 +57,8 @@ a:hover{
 body {
 	background-image: teal;
 }
-@import url(http://fonts.googleapis.com/css?family=Cantarell:400,700italic);
-h1 {
-  color: white;
-  font-family: 'Courgette', cursive;
-  font-size: 8em;
-  font-weight: bold;
-  font-style: italic;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  -webkit-text-stroke: 6px red;
-  -webkit-animation: hotline-miami 3.5s ease-out infinite;
-}
-
-@-webkit-keyframes hotline-miami {
-  
-  15% {
-    margin-left: 0;
-    text-shadow: none;
-  }
-  
-  45%, 55% {
-    margin-left: 1.25em;
-    -webkit-text-stroke: 6px #FFF;
-    text-shadow:
-    -4px 0 red,
-    -8px 0 red,
-    -20px 0 black,
-    -24px 0 black,
-    -28px 0 black,
-    -32px 0 black,
-    -36px 0 black,
-    -40px 0 black,
-    -44px 0 black,
-    -48px 0 black,
-    -52px 0 black,
-    -56px 0 black,
-    -60px 0 red,
-    -64px 0 red;
-  }
-  
-}
+ 
+ 
 .social-icons {
   width: 3em;
   height: 3em;
@@ -106,10 +73,11 @@ h1 {
 }
 
 
-@media screen and (max-width:959px){
- #title{
-  width: 100%;
-
+@media screen and (max-width:320px){
+  #container{
+    width: 100%;
   }
-
+  #pic1{
+    width:70%;
+  }
 }
